@@ -1,0 +1,131 @@
+<view class="top">
+  <view class="children">
+    <view class="money">余额</view>
+    <view class="price">0.00</view>
+    <view class="push">充值</view>
+  </view>
+  <view class="children">
+    <image src='{{avatar}}'></image>
+    <view class="name">{{name}}</view>
+  </view>
+  <view class="children">
+    <view class="money">积分</view>
+    <view class="price">0.00</view>
+    <view class="push">兑换</view>
+  </view>
+</view>
+<view class="topBottom"></view>
+<!-- 头部结束 -->
+
+<view class="address">
+  <view class="addressTop" style="margin-top:20rpx;">
+    <view class="admin">默认收货地址</view>
+    <image class="right img" src='../../images/右箭头.png'></image>
+  </view>
+  <view class="addressTop">
+    <view class="addressCshi">收货人 : 测试</view>
+    <view class="right" style="margin-right:100rpx;">13631676646</view>
+  </view>
+  <view class="addressTop">
+    <view class="addressCshi">
+      收货地址 : 浙江省宁波市鄞州区钱湖路由独家区域
+    </view>
+  </view>
+</view>
+<!-- 收货地址结束 -->
+
+<view class="fenge"></view>
+
+<view class="order" bindtap="myOrder">
+  <view class="myorder">我的订单</view>
+  <view class="right">
+    <image class="img" src='../../images/右箭头.png'></image>查看全部订单
+  </view>
+</view>
+<!-- 订单 -->
+<view class="pay">
+  <view class="payLei">
+    <image src='../../images/店铺.png'></image>
+    <view class="nowPay">待付款</view>
+    <view class="nums">1</view>
+  </view>
+  <view class="payLei">
+    <image src='../../images/店铺.png'></image>
+    <view class="nowPay">待发货</view>
+    <view class="nums">1</view>
+  </view>
+  <view class="payLei">
+    <image src='../../images/店铺.png'></image>
+    <view class="nowPay">待收货</view>
+    <view class="nums">1</view>
+  </view>
+  <view class="payLei" style="border-right:2rpx solid #ccc;">
+    <image src='../../images/店铺.png'></image>
+    <view class="nowPay">退换货</view>
+    <view class="nums">1</view>
+  </view>
+</view>
+<view class="fenge"></view>
+<!-- 各种付款 -->
+<view class="lei">
+  <view class="main">
+    <image src='../../images/店铺.png'></image>
+    <view class="bargain">砍价首页</view>
+    <image class="right img" src='../../images/右箭头.png'></image>
+    <view class="nums">1</view>
+  </view>
+</view>
+<view class="lei">
+  <view class="main">
+    <image src='../../images/店铺.png'></image>
+    <view class="bargain">积分签到</view>
+    <image class="right img" src='../../images/右箭头.png'></image>
+    <view class="nums">1</view>
+  </view>
+</view>
+<view class="lei">
+  <view class="main">
+    <image src='../../images/店铺.png'></image>
+    <view class="bargain">分销中心</view>
+    <image class="right img" src='../../images/右箭头.png'></image>
+    <view class="nums">1</view>
+  </view>
+</view>
+<view class="fenge"></view>
+<view class="lei">
+  <view class="main" bindtap="myCoupon">
+    <image src='../../images/店铺.png'></image>
+    <view class="bargain">我的优惠券</view>
+    <image class="right img" src='../../images/右箭头.png'></image>
+    <view class="nums">1</view>
+  </view>
+</view>
+<view class="lei" bindtap="getCoupon">
+  <view class="main">
+    <image src='../../images/店铺.png'></image>
+    <view class="bargain">领取优惠券</view>
+    <image class="right img" src='../../images/右箭头.png'></image>
+    <view class="nums">1</view>
+  </view>
+</view>
+<view class="fenge"></view>
+<view class="lei">
+  <view class="main" bindtap="toAddress">
+    <image src='../../images/店铺.png'></image>
+    <view class="bargain">添加收货地址</view>
+    <image class="right img" src='../../images/右箭头.png'></image>
+    <view class="nums">1</view>
+  </view>
+</view>
+<view class="lei">
+  <view class="main" bindtap="getMoney">
+    <image src='../../images/店铺.png'></image>
+    <view class="bargain">余额提现</view>
+    <image class="right img" src='../../images/右箭头.png'></image>
+    <view class="nums">1</view>
+  </view>
+</view>
+<!-- 小分类 -->
+<view class="callPhone" bindtap="calling">
+  <image src="../../images/kefu.png"></image>
+</view>

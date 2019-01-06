@@ -1,0 +1,294 @@
+.top {
+  width: 100%;
+  float: left;
+  height: 210rpx;
+  display: flex;
+  background-color: #f55;
+}
+
+.top .children {
+  padding-top: 15rpx;
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 1.5;
+}
+
+.top .children:first-child, .top .children:last-child {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 1.5;
+  padding-top: 56rpx;
+}
+
+.top .children image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.top .children .name {
+  color: #fff;
+  font-size: 35rpx;
+}
+
+.top .children .money {
+  color: #fff;
+}
+
+.top .children .price {
+  color: #ff9500;
+}
+
+.top .children .push {
+  border: 1px solid #fff;
+  border-radius: 112rpx;
+  display: inline-block;
+  width: 111rpx;
+  color: #fff;
+  line-height: 40rpx;
+  height: 40rpx;
+}
+
+.topBottom {
+  width: 100%;
+  float: left;
+  height: 80rpx;
+  margin-top: -5rpx;
+  background-color: #f55;
+  border-bottom-right-radius: 80%;
+  border-bottom-left-radius: 80%;
+}
+
+/* 头部结束 */
+
+.address {
+  width: 100%;
+  float: left;
+  border-bottom: 1rpx solid #ccc;
+  padding-bottom: 14rpx;
+  padding-top: 14rpx;
+  padding-left: 20rpx
+}
+
+.address .addressTop {
+  width: 100%;
+  height: 37rpx;
+  float: left;
+  font-size: 30rpx;
+  line-height: 37rpx;
+  background-color: #fff;
+}
+
+.address .addressTop .addressIcon {
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+  font-size: 40rpx;
+}
+
+.address .addressTop .admin {
+  display: inline;
+  float: left;
+  font-size: 28rpx;
+  height: 40rpx;
+  color: #f55;
+  line-height: 40rpx;
+}
+
+.address .addressTop .right {
+  float: right;
+  font-size: 25rpx;
+  margin-right: 40rpx;
+  line-height: 30rpx;
+  height: 30rpx;
+  color: #ccc;
+}
+
+.address .addressTop .addressCshi {
+  color: #ccc;
+  display: inline;
+  font-size: 28rpx;
+  /* margin-left: 62rpx; */
+}
+
+/* 收货地址结束 */
+
+.fenge {
+  width: 100%;
+  height: 18rpx;
+  float: left;
+  background-color: #f8f8f8;
+}
+
+.order {
+  width: 100%;
+  height: 80rpx;
+  float: left;
+  border-bottom: 1rpx solid #ccc;
+  padding-left: 20rpx;
+}
+
+.order image {
+  width: 40rpx;
+  height: 40rpx;
+  margin: 20rpx;
+  float: left;
+  font-size: 31rpx;
+  text-align: center;
+  margin-right: 6rpx;
+  margin-top: 8px;
+}
+
+.order .myorder {
+  float: left;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  font-weight: fold;
+}
+
+.order .right {
+  float: right;
+  line-height: 80rpx;
+  color: #ccc;
+  font-size: 25rpx;
+  margin-right: 40rpx;
+  position: relative;
+  padding-right: 40rpx;
+}
+.order .right .img{
+  position: absolute;
+  right: 0;
+  top: 5rpx;
+  height: 30rpx;
+  width: 30rpx;
+  vertical-align: middle
+}
+
+/* 订单 */
+
+.pay {
+  width: 100%;
+  float: left;
+  height: 160rpx;
+  display: flex;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.pay .payLei {
+  flex: 1;
+  position: relative;
+  font-size: 25rpx;
+  text-align: center;
+  height: 147rpx;
+  margin-top: 6.5rpx;
+}
+
+.pay .payLei image {
+  width: 80rpx;
+  height: 68rpx;
+  margin: 9rpx auto;
+  font-size: 46rpx;
+}
+
+.pay .payLei .nums {
+  position: absolute;
+  width: 32rpx;
+  height: 32rpx;
+  top: 0;
+  right: 21rpx;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+  line-height: 32rpx;
+  text-align: center;
+}
+
+/* 各种付款 */
+
+.lei {
+  width: 100%;
+  height: 100rpx;
+  float: left;
+}
+
+.lei .main {
+  /* width: 90%; */
+  height: 100%;
+  /* margin: 0 auto; */
+  border-bottom: 1rpx solid #ccc;
+  position: relative;
+  padding: 0 20rpx;
+}
+
+.lei .main  image {
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+  margin-top: 29rpx;
+  margin-right: 25rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: 45rpx;
+}
+
+.lei .main .bargain {
+  line-height: 50rpx;
+  float: left;
+  font-size: 30rpx;
+  height: 50rpx;
+  display: inline-block;
+  margin-top: 26rpx;
+}
+
+.lei .main .right {
+  line-height: 50rpx;
+  float: right;
+  font-size: 30rpx;
+  height: 30rpx;
+  display: inline-block;
+  margin-top: 26rpx;
+  color: #ccc;
+  margin-right: 0;
+  width: 30rpx;
+}
+
+.lei .main .nums {
+  position: absolute;
+  width: 43rpx;
+  height: 32rpx;
+  top: 36rpx;
+  right: 60rpx;
+  border-radius: 35%;
+  background-color: rgb(212, 71, 71);
+  color: #fff;
+  line-height: 32rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+/* 小类结束 */
+
+.callPhone {
+  width: 90rpx;
+  height: 90rpx;
+  position: fixed;
+  right: 46rpx;
+  bottom: 144rpx;
+  background-color: #62a8f8;
+  border-radius: 50%;
+}
+
+.callPhone image {
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  height: 30rpx;
+  width: 30rpx;
+}
